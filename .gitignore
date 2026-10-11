@@ -1,0 +1,6 @@
+# 忽略编译产物
+*.exe
+build/
+
+# 忽略 VSCode 的本地配置
+.vscode/
