@@ -1,8 +1,11 @@
 #include <iostream>
 using namespace std;
-int main() {
+int main()
+{
     cout << "Hello, World!" << endl;
-    return 0;
+
     cout << "This line will not be executed." << endl;
-    cout << "Neither will this line." << endl;
+    cout << 1 + 1 << endl;
+    cout << "I am faulty." << endl; // This line is unreachable
+    return 0;
 }
